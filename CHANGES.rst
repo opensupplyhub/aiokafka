@@ -19,6 +19,7 @@ Bugfixes:
 * Fix `KeyError` on solitary abort marker (issue #781, pr #782 by @pikulmar)
 * Fix handling unsupported compression codec (issue #795)
 * Handled other SASL mechanism in logging (issue #852, pr #861 by @mangin)
+* Pinned kafka-python dependency to version 2.0.3 to ensure compatibility and stability with aiokafka v0.8.0 (issue https://github.com/aio-libs/aiokafka/issues/1093)
 
 
 Improved Documentation:
